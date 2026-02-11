@@ -3,109 +3,138 @@
 <head>
     <title>Rachel Faith Albor | Chemistry Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <style>
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Segoe UI', Arial, sans-serif;
             margin: 0;
-            background: linear-gradient(to right, #eef2f3, #dfe9f3);
-            color: #333;
+            background-color: #ffffff;
+            color: #2c3e50;
         }
 
         header {
-            background: #1f2d3d;
+            background-color: #0f1c2e;
             color: white;
-            padding: 40px 20px;
+            padding: 60px 20px;
             text-align: center;
         }
 
         header h1 {
             margin: 0;
-            font-size: 32px;
+            font-size: 36px;
+            letter-spacing: 1px;
         }
 
         header p {
-            margin-top: 10px;
+            margin-top: 12px;
             font-size: 16px;
             color: #cfd8dc;
         }
 
         section {
-            padding: 40px 20px;
             max-width: 900px;
-            margin: auto;
+            margin: 60px auto;
+            padding: 0 20px;
         }
 
         h2 {
-            color: #1f2d3d;
-            border-bottom: 2px solid #1f2d3d;
-            padding-bottom: 5px;
+            border-left: 4px solid #0f1c2e;
+            padding-left: 12px;
+            font-size: 22px;
         }
 
         .card {
-            background: white;
-            padding: 20px;
+            background: #f8f9fa;
+            padding: 25px;
             margin-top: 20px;
-            border-radius: 8px;
-            box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+            border-radius: 6px;
         }
 
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #1f2d3d;
-            color: white;
-            margin-top: 40px;
+        .skills-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+            margin-top: 15px;
         }
 
         .button {
             display: inline-block;
             padding: 10px 18px;
-            background: #0d6efd;
+            background: #0f1c2e;
             color: white;
             text-decoration: none;
-            border-radius: 5px;
-            margin-top: 10px;
+            border-radius: 4px;
+            margin-top: 15px;
         }
 
         .button:hover {
-            background: #084298;
+            background: #1f2f47;
+        }
+
+        footer {
+            background: #0f1c2e;
+            color: white;
+            text-align: center;
+            padding: 25px;
+            margin-top: 60px;
+            font-size: 14px;
+        }
+
+        @media (max-width: 768px) {
+            .skills-grid {
+                grid-template-columns: 1fr;
+            }
         }
     </style>
 </head>
+
 <body>
 
 <header>
     <h1>Rachel Faith Albor</h1>
-    <p>Chemistry Student | Aspiring Licensed Chemist | Laboratory Experience</p>
+    <p>Chemistry Student | Laboratory Professional | Future Licensed Chemist</p>
 </header>
 
 <section>
-    <h2>About Me</h2>
+    <h2>Professional Summary</h2>
     <div class="card">
         <p>
-            I am a chemistry student with a diploma in Chemical Engineering Technology and 5 years of laboratory experience. 
-            I am currently preparing for the Chemist Licensure Examination and passionate about analytical chemistry, research, and sustainable chemical innovation.
+            Chemistry student with a diploma in Chemical Engineering Technology and five years of laboratory experience.
+            Skilled in analytical techniques, laboratory documentation, and data analysis.
+            Currently preparing for the Chemist Licensure Examination (October 2026) and seeking opportunities in analytical and industrial chemistry.
         </p>
     </div>
 </section>
 
 <section>
-    <section>
-    <h2>Technical Skills</h2>
+    <h2>Education</h2>
     <div class="card">
-        <p><strong>Analytical Techniques:</strong> Titration, Spectrophotometry, Gravimetric Analysis</p>
-        <p><strong>Instrumentation:</strong> UV-Vis Spectrophotometer, pH Meter, Analytical Balance</p>
-        <p><strong>Software:</strong> Microsoft Excel, Google Sheets, Basic Computational Chemistry Tools</p>
-        <p><strong>Laboratory Skills:</strong> Sample Preparation, Reagent Preparation, Documentation, Data Analysis</p>
+        <p><strong>Bachelor of Science in Chemistry</strong> (Ongoing)</p>
+        <p><strong>Diploma in Chemical Engineering Technology</strong></p>
     </div>
 </section>
 
+<section>
+    <h2>Technical Competencies</h2>
+    <div class="card">
+        <div class="skills-grid">
+            <div>• Titration & Quantitative Analysis</div>
+            <div>• UV-Vis Spectrophotometry</div>
+            <div>• Sample & Reagent Preparation</div>
+            <div>• Laboratory Documentation</div>
+            <div>• Data Analysis (Excel, Sheets)</div>
+            <div>• Basic Computational Chemistry</div>
+        </div>
+    </div>
+</section>
 
 <section>
-    <h2>Research & Projects</h2>
+    <h2>Research Project</h2>
     <div class="card">
-        <p><strong>Capstone Project:</strong><br>
-        Computational analysis of electron-donating substituent effects on torsional stability and electronic structure of 2,2′-disubstituted biphenyls.</p>
+        <p><strong>Capstone Study:</strong></p>
+        <p>
+            Computational analysis of electron-donating substituent effects on the torsional stability and electronic structure of 2,2′-disubstituted biphenyls using molecular modeling techniques.
+        </p>
     </div>
 </section>
 
@@ -113,14 +142,13 @@
     <h2>Contact</h2>
     <div class="card">
         <p>Email: your.email@example.com</p>
-        <a class="button" href="mailto:your.email@example.com">Send Email</a>
+        <a class="button" href="mailto:your.email@example.com">Contact Me</a>
     </div>
 </section>
 
 <footer>
-    © 2026 Rachel Faith Albor | Chemistry Portfolio
+    © 2026 Rachel Faith Albor | Professional Chemistry Portfolio
 </footer>
 
 </body>
 </html>
-
